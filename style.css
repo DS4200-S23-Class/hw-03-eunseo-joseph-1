@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+a:visited{
+    color:blue;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+img {
+    padding-bottom: 10%;
+    max-width: 95%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+
