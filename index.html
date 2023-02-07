@@ -17,22 +17,24 @@
         <div class="column">
             <h2>Marks</h2>
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>mark 3</li>
+                <li>Areas</li>
+                <li>Lines</li>
             </ul>
             <h2>Channels</h2>
             <ul>
-                <li>channel 1
+                <li>Color Hue
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of visual popout</li>
+                        <li>This is a good mapping because the distinct color differences in red vs. blue on the map as well as the distinct color standout
+                        on the battleground state (half red/half blue) makes the graph easy to analyze. However, the focus of the visual is not necessarily 
+                            intended to be the swing state.</li>
                     </ul>
                 </li>
-                <li>channel 2
+                <li>Shape
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of accuracy</li>
+                        <li>This is an okay mapping, because state shapes are represented accurately according to scale. However, the size of a state does not
+                        necessarily correlate with the number of electoral votes they have and the impact they have on the overall electoral college.</li>
                     </ul>
                 </li>
             </ul>
@@ -60,22 +62,32 @@
         <div class="column">
             <h2>Marks</h2>
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>mark 3</li>
+                <li>Lines</li>
+                <li>Points</li>
             </ul>
             <h2>Channels</h2>
             <ul>
-                <li>channel 1
+                <li>Position (both)
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of separability</li>
+                        <li>This is a good mapping, because the position + hue are fully separable. A user is able to understand both the relationship
+                        between launch angle and exit velocity represented by position, as well as scoring value represented by hue.</li>
                     </ul>
                 </li>
-                <li>channel 2
+                <li>Color Hue
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of discriminality</li>
+                        <li>This is a bad mapping in our opinion because the colors do not lie on a scale gradient or a temperature gradient.
+                        The purple and orange create some contrast, but it is hard to apply the colors to the information depicted.</li>
+                    </ul>
+                </li>
+                <li>Position - Horizontal 
+                    <ul>
+                        <li>Represents attribute of grouping</li>
+                        <li>This is a good mapping in our opinion because the horizontal lines representing pop ups, line drives, fly balls,
+                        and ground balls separate all the batted balls into categories that make the visual easier to understand. 
+                        ALmost everyone knows what these types of balls are and what they usually look like, so it helps add context
+                        to the visualization. </li>
                     </ul>
                 </li>
             </ul>
@@ -103,22 +115,32 @@
         <div class="column">
             <h2>Marks</h2>
             <ul>
-                <li>mark 1</li>
-                <li>mark 2</li>
-                <li>mark 3</li>
+                <li>Lines</li>
             </ul>
             <h2>Channels</h2>
             <ul>
-                <li>channel 1
+                <li>Size - length 
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of popout</li>
+                        <li>This is a good mapping, because it is easy to see which phrases are most commonly said and that there is one phrase that 
+                        very obviously sticks out.</li>
                     </ul>
                 </li>
-                <li>channel 2
+                <li>Color - Hue
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of discriminability</li>
+                        <li>This is a bad mapping, because there are too many movies to be efficiently represented by colors.
+                        The key features 14 different movies that are each assigned a random color, and it is hard to tell what
+                        the color represents because it is completely arbitrary. It just makes the graph more confusing. Maybe if 
+                        the colors were grouped together it would work better to show how many top bigrams each movie had, but it is not helpful
+                        the way it is currently structured.</li>
+                    </ul>
+                </li>
+                <li>Position
+                    <ul>
+                        <li>Represents attribute of accuracy</li>
+                        <li>This is a good mapping because the way the two sides of the graph are set up make it easy to look at the name and quantity
+                        of bigrams. However, the issue with color (hue) negatively affects the position as well.</li>
                     </ul>
                 </li>
             </ul>
