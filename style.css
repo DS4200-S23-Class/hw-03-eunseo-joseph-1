@@ -5,6 +5,7 @@ body {
 h1 {
     text-align: center;
 }
+
 a:visited{
     color:blue;
 }
@@ -13,10 +14,24 @@ h2 {
     margin-top: 5%;
     margin-bottom: 0%;
 }
+
 img {
     padding-bottom: 10%;
     max-width: 95%;
 }
+
+button {
+    height: 38px;
+    padding: 0 30px;
+    border: 1px solid #bbb;
+    box-sizing: border-box; 
+}
+
+button:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; 
+  }
 
 .row {
     display: flex;
