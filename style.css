@@ -1,8 +1,8 @@
 body {
     font-family: Arial; <!-- font --> 
 }
-
-h1 { 
+<!-- Heading styles -->
+h1 {  
     text-align: center;
 }
 
@@ -17,12 +17,12 @@ h2 {
     margin-top: 5%;
     margin-bottom: 0%;
 }
-
+<!-- Image formatting -->
 img {
     padding-bottom: 10%;
     max-width: 95%;
 }
-
+<!-- Button formatting -->
 button { 
     height: 38px;
     padding: 0 30px;
