@@ -9,15 +9,15 @@
 
 
 <body>
-    <h1 id="title">hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <h1 id="title">hw-03: Interactive Webpage, and Marks & Channels</h1> <!-- Creating interactive button element of HW -->
     <button onclick=increaseFontSize(true)>Click to make title bigger</button>
     <button onclick=increaseFontSize(false)>Click to make title smaller</button>
-    <div class="row">
+    <div class="row"> <!-- Visualization 1 Comments -->
         <div class="column">
             <img src="img/vis1.png"/>
         </div>
         <div class="column">
-            <h2>Marks</h2>
+            <h2>Marks</h2> <!-- Marks and Channels -->
             <ul>
                 <li>Areas</li>
                 <li>Lines</li>
@@ -35,23 +35,32 @@
                 <li>Shape
                     <ul>
                         <li>Represents attribute of accuracy</li>
-                        <li>This is an okay mapping, because state shapes are represented accurately according to scale. However, the size of a state does not
-                        necessarily correlate with the number of electoral votes they have and the impact they have on the overall electoral college.</li>
+                        <li>This is an okay mapping, because state shapes are represented accurately according to scale. Having the states represented by their outlines
+                            also helps with comprehension of data, as someone does not have to squint at tiny text to decipher which state they are looking at.
+                            However, the size of a state does not necessarily correlate with the number of electoral votes they have and the impact they 
+                            have on the overall electoral college.
+                        </li>
+                 <li>Size (length)
+                    <ul>
+                        <li>Represents attribute of accuracy</li>
+                        <li>The shape created by the electoral votes needed to win bar helps voters understand
+                            how close the election would be. The bar is easy to read and shows the accurate belief that the blue
+                            states would win by a large margin. 
+                        </li>
+                    </ul>
                     </ul>
                 </li>
             </ul>
-            <h2>Colormap(s)</h2>
+            <h2>Colormap(s)</h2> <!-- Colormap Analysis -->
             <ul>
-                <li>colormap 1
+                <li>Divergent 
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
-                    </ul>
-                </li>
-                <li>colormap 2
-                    <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of popout</li>
+                        <li>This is an good mapping, because the bold colors and the contrast of red (not a lot) vs blue (a lot)
+                        accomplishes the main point of the visualization. These colors are also semantically meaningful with
+                        the U.S.'s party colors. However, if the map wanted to go into more depth about how truly Democratic
+                        or Republican each state was, they could've more fully utilized the divergent scheme to show states
+                        that were closer to swing than others. </li>
                     </ul>
                 </li>
             </ul>
@@ -59,10 +68,10 @@
     </div>
     <div class="row">
         <div class="column">
-            <img src="img/vis2.png"/>
+            <img src="img/vis2.png"/> <!-- Visualization 2 --> 
         </div>
         <div class="column">
-            <h2>Marks</h2>
+            <h2>Marks</h2> <!-- Marks and Channels -->
             <ul>
                 <li>Lines</li>
                 <li>Points</li>
@@ -93,18 +102,15 @@
                     </ul>
                 </li>
             </ul>
-            <h2>Colormap(s)</h2>
+            <h2>Colormap(s)</h2> <!-- Colormap Analysis -->
             <ul>
-                <li>colormap 1
+                <li>Divergent
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
-                    </ul>
-                </li>
-                <li>colormap 2
-                    <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of discriminability</li>
+                        <li>This is a bad mapping, because the colors may diverge but are not effective in this context.
+                        The colors are supposed to depict how above or below average a scoring value is, but feel unintuitive. 
+                        Also, accessibility is a concern in this, as people may not be able to decipher the difference between
+                        the aveage 'cream' and the grey background and assume there is no data there.</li>
                     </ul>
                 </li>
             </ul>
@@ -112,10 +118,10 @@
     </div>
     <div class="row">
         <div class="column">
-            <img src="img/vis3.png"/>
+            <img src="img/vis3.png"/> <!-- Our custom visualization created from txt files for different Marvel scripts -->
         </div>
         <div class="column">
-            <h2>Marks</h2>
+            <h2>Marks</h2> <!-- Marks and Channels -->
             <ul>
                 <li>Lines</li>
             </ul>
@@ -146,24 +152,21 @@
                     </ul>
                 </li>
             </ul>
-            <h2>Colormap(s)</h2>
+            <h2>Colormap(s)</h2> <!-- Colormap Analysis -->
             <ul>
-                <li>colormap 1
+                <li>Categorical
                     <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
-                    </ul>
-                </li>
-                <li>colormap 2
-                    <ul>
-                        <li>Represents attribute of type X</li>
-                        <li>This is a good mapping, because</li>
+                        <li>Represents attribute of separability</li>
+                        <li>This is a good mapping, because it allows users to look at the channels independently.
+                        For example, someone can just look at the line lengths and observe popularity, or look only
+                        at the colors and know which color represents which category. However, the amount of colors
+                        needed for this dataset may be overwhelming, and color may not be the most effective tool. </li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
-    <h1>Acknowledgements</h1>
+    <h1>Acknowledgements</h1> <!-- All our wonderful resources we used! -->
     <ul>
         <li>
             <a href="https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01">Ridiculously easy row and column layouts with Flexbox</a>
