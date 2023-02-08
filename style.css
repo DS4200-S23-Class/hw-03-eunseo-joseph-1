@@ -2,7 +2,7 @@ body {
     font-family: Arial; <!-- font --> 
 }
 
-h1 { <!-- heading format -->
+h1 { 
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ img {
     max-width: 95%;
 }
 
-button { <!-- Button specifications -->
+button { 
     height: 38px;
     padding: 0 30px;
     border: 1px solid #bbb;
