@@ -6,9 +6,6 @@ h1 {
     text-align: center;
 }
 
-h3 { 
-    text-align: center;
-}
 a:visited{
     color:blue;
 }
@@ -16,6 +13,10 @@ a:visited{
 h2 {
     margin-top: 5%;
     margin-bottom: 0%;
+}
+
+h3 { 
+    text-align: center;
 }
 <!-- Image formatting -->
 img {
