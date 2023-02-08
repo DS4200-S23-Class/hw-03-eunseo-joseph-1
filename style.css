@@ -1,8 +1,8 @@
 body {
-    font-family: Arial;
+    font-family: Arial; <!-- font --> 
 }
 
-h1 {
+h1 { <!-- heading format -->
     text-align: center;
 }
 
@@ -20,20 +20,20 @@ img {
     max-width: 95%;
 }
 
-button {
+button { <!-- Button specifications -->
     height: 38px;
     padding: 0 30px;
     border: 1px solid #bbb;
     box-sizing: border-box; 
 }
 
-button:focus {
+button:focus { 
     color: #333;
     border-color: #888;
     outline: 0; 
   }
 
-.row {
+.row { <!-- Displaying rows vs. columns --> 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
