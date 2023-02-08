@@ -33,7 +33,7 @@ button:focus {
     outline: 0; 
   }
 
-.row { <!-- Displaying rows vs. columns --> 
+.row { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
