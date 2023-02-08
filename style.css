@@ -1,13 +1,11 @@
+/* font */
 body {
-    font-family: Arial; <!-- font --> 
-}
-<!-- Heading styles -->
-h1 {  
-    text-align: center;
+    font-family: Arial; 
 }
 
-a:visited{
-    color:blue;
+/* Heading styles */
+h1 {  
+    text-align: center;
 }
 
 h2 {
@@ -18,12 +16,14 @@ h2 {
 h3 { 
     text-align: center;
 }
-<!-- Image formatting -->
+
+/* Image formatting */
 img {
     padding-bottom: 10%;
     max-width: 95%;
 }
-<!-- Button formatting -->
+
+/* Button & link formatting  */
 button { 
     height: 38px;
     padding: 0 30px;
@@ -37,6 +37,11 @@ button:focus {
     outline: 0; 
   }
 
+a:visited{
+    color:blue;
+}
+
+/* flex-box formatting */
 .row { 
     display: flex;
     flex-direction: row;
